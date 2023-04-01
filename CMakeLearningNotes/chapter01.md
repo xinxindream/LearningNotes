@@ -1,10 +1,10 @@
 # CMake概述
 ## 一、CMake简介
 ### 1. 什么是CMake？
-
+CMake（cross platform make），跨平台编译构建工具，相当于一个编译构建脚本
 
 ### 2. 为什么使用CMake？
-
+当项目涉及多个单元模块，涉及多个源文件以及资源，逐个编译以及链接库将十分复杂，CMake可以解决
 
 ## 二、CMake下载与安装
 由于再linux上使用CMake居多，故只有Linux上下载安装教程
@@ -39,5 +39,5 @@ export PATH=$CMAKE_HOME:$PATH
 4. 软链接，全局cmake生效
 > ln -sf /usr/local/devtools/cmake-3.26.2/bin/* /usr/bin/
 
-### 4. Linux协助CMake
+### 4. Linux卸载CMake
 > rm -rf 安装目录 
